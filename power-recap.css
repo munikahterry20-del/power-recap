@@ -1,1 +1,89 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+/* Page Layout & Body Styling */
+body {
+  background-color: #f0f8ff; /* Soft blue */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: #333;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Headings */
+h1 {
+  font-size: 2.5rem;
+  color: #1e88e5;
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin-top: 30px;
+  color: #444;
+}
+
+/* Paragraphs */
+p {
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+
+/* List Reset (Exercise 2) */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin: 6px 0;
+  font-size: 1.05rem;
+}
+
+/* Favorite Animal Image */
+.animal {
+  margin-top: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Skill Search Input Field */
+#searchInput {
+  padding: 10px;
+  width: 80%;
+  max-width: 300px;
+  border: 2px solid #90caf9;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+/* Search Button */
+#searchButton {
+  padding: 10px 20px;
+  background-color: #42a5f5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#searchButton:hover {
+  background-color: #1e88e5;
+}
+
+/* Search Result Text */
+#searchResult {
+  margin-top: 15px;
+  font-style: italic;
+  color: #666;
+  font-weight: 600;
+}
